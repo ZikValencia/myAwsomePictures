@@ -36,10 +36,43 @@ nav {
 .header-menu li a:hover{
     color: #a9a9a9;
 }
+.content-container {
+    width: 100%;
+}
 .hero-container {
     background-color: #1F2937;
     height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
 }
-.content-container {
-    width: 100%;
+.hero-content {
+    width: 450px;
+}
+.hero-content p{
+    font-size: 18px;
+    color: #E5E7EB
+}
+.hero-title {
+  width: 350px;
+}
+.hero-content-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: none;
+    border:none
+}
+
+button:hover {
+    background-color: #306dd0;
 }
