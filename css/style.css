@@ -39,6 +39,7 @@ nav {
 .content-container {
     width: 100%;
 }
+/* Hero */
 .hero-container {
     background-color: #1F2937;
     height: auto;
@@ -79,4 +80,40 @@ button {
 
 button:hover {
     background-color: #306dd0;
+}
+/* Preview */
+.preview-container {
+    margin: 50px 100px 50px 100px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.priview-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.preview-header{
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.priview-item {
+    height: auto;
+    width: 150px;
+    padding: 10px;
+    color: #a9a9a9;
+    font-size: 14px;
+    font-weight: 50;
+    text-align: center;
+}
+
+.priview-item img {
+    height: 150px;
+    width: 150px;
+    border: solid 1px rgb(109, 109, 109) ;
+    box-shadow: #1F2937;
+    border-radius: 10px;
 }
